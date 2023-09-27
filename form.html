@@ -9,47 +9,47 @@
     <h2>HTML Forms</h2>
 
 <form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
+  <label for="fname">성:</label><br>
+  <input type="text" id="fname" name="fname" value="조"><br>
+  <label for="lname">이름:</label><br>
+  <input type="text" id="lname" name="lname" value="귀호"><br><br>
+  <input type="submit" value="제출">
 </form> 
 
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+<p>If you click the "제출" button, the form-data will be sent to a page called "/action_page.php".</p>
 
 <h1>Display Radio Buttons</h1>
 
 <form action="/action_page.php">
-  <p>Please select your favorite Web language:</p>
-  <input type="radio" id="html" name="fav_language" value="HTML">
-  <label for="html">HTML</label><br>
-  <input type="radio" id="css" name="fav_language" value="CSS">
-  <label for="css">CSS</label><br>
-  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-  <label for="javascript">JavaScript</label>
+  <p>Please select your favorite foods:</p>
+  <input type="radio" id="html" name="food" value="Pizza">
+  <label for="Pizza">Pizza</label><br>
+  <input type="radio" id="css" name="food" value="Chicken">
+  <label for="Chicken">Chicken</label><br>
+  <input type="radio" id="javascript" name="food" value="Hamburger">
+  <label for="Hamburger">Hamburger</label>
 
   <br>  
 
-  <p>Please select your age:</p>
+  <p>나이를 선택해주세요.:</p>
   <input type="radio" id="age1" name="age" value="30">
   <label for="age1">0 - 30</label><br>
   <input type="radio" id="age2" name="age" value="60">
   <label for="age2">31 - 60</label><br>  
   <input type="radio" id="age3" name="age" value="100">
   <label for="age3">61 - 100</label><br><br>
-  <input type="submit" value="Submit">
+  <input type="submit" value="제출">
 </form>
 
 <h1>Show Checkboxes</h1>
 
 <form action="/action_page.php">
-  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-  <label for="vehicle1"> I have a bike</label><br>
-  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-  <label for="vehicle2"> I have a car</label><br>
-  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-  <label for="vehicle3"> I have a boat</label><br><br>
+  <input type="checkbox" id="sports1" name="sports1" value="jiu-jitsu">
+  <label for="vehicle1"> I'm learning jiu-jitsu</label><br>
+  <input type="checkbox" id="sports2" name="sports2" value="judo">
+  <label for="vehicle2"> I'm learning judo</label><br>
+  <input type="checkbox" id="sports3" name="sports3" value="boxing">
+  <label for="vehicle3"> I'm learning boxing</label><br><br>
   <input type="submit" value="Submit">
 </form>
 
@@ -60,10 +60,10 @@
 <form action="/action_page.php">
   <label for="cars">Choose a car:</label>
   <select name="cars" id="cars">
-    <option value="volvo">Volvo</option>
-    <option value="saab">Saab</option>
-    <option value="opel">Opel</option>
-    <option value="audi">Audi</option>
+    <option value="Kia">Kia</option>
+    <option value="Hyundai">Hyundai</option>
+    <option value="Honda">Honda</option>
+    <option value="Audi">Audi</option>
   </select>
   <br><br>
   <input type="submit" value="Submit">
@@ -75,16 +75,16 @@ server called "action_page.php".</p>
 <h1>Show a Date Control</h1>
 
 <form action="/action_page.php">
-  <label for="birthday">Birthday:</label>
+  <label for="생년월일">생년월일:</label>
   <input type="date" id="birthday" name="birthday">
-  <input type="submit">
+  <input type="제출">
 </form>
 
 <h1>The textarea element</h1>
 
 <form action="/action_page.php">
-  <p><label for="w3review">Review of W3Schools:</label></p>
-  <textarea id="w3review" name="w3review" rows="4" cols="50">At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.</textarea>
+  <p><label for="review">Review of Project:</label></p>
+  <textarea id="review" name="review" rows="4" cols="50">이번 프로젝트를 진행하면서...</textarea>
   <br>
   <input type="submit" value="Submit">
 </form>
